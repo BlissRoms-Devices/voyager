@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-22.0" />
+  <project path="device/google/barbet" name="BlissRoms-Devices/android_device_google_barbet" remote="github" revision="voyager" />
+  <project path="device/google/redbull" name="BlissRoms-Devices/android_device_google_redbull" remote="github" revision="voyager" />
+  <project path="kernel/google/redbull" name="LineageOS/android_kernel_google_redbull" remote="github" revision="lineage-22.0" />
+  <project path="vendor/google/barbet" name="BlissRoms-Devices/proprietary_vendor_google_barbet" remote="github" revision="voyager" />
+</manifest>
