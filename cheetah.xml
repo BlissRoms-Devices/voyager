@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/cheetah" name="BlissRoms-Devices/android_device_google_cheetah" remote="github"  revision="voyager" />
+  <project path="device/google/pantah" name="BlissRoms-Devices/android_device_google_pantah" remote="github"  revision="voyager" />
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-22.0" />
+  <project path="device/google/gs101" name="LineageOS/android_device_google_gs101" remote="github" revision="lineage-22.0" />
+  <project path="device/google/gs201" name="BlissRoms-Devices/android_device_google_gs201" remote="github" revision="voyager" />
+  <project path="device/google/pantah-kernels/5.10" name="device/google/pantah-kernels/5.10" remote="aosp-pantah" clone-depth="1" />
+  <project path="vendor/google/cheetah" name="BlissRoms-Devices/proprietary_vendor_google_cheetah" remote="github" revision="voyager" />
+</manifest>
