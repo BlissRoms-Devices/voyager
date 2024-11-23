@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/nothing/Spacewar" name="StudioKeys-Dumps/device_google_Spacewar" remote="github"  revision="voyager" />
+  <project path="packages/apps/ParanoidGlyph" name="StudioKeys-Dumps/packages_apps_ParanoidGlyph" remote="github" revision="voyager" />
+  <project path="hardware/dolby" name="StudioKeys-Dumps/hardware_dolby" remote="github" revision="voyager" />
+  <project path="kernel/nothing/sm7325" name="StudioKeys-Dumps/kernel_nothing_sm7325" remote="github" clone-depth="1" />
+  <project path="vendor/nothing/Spacewar" name="StudioKeys-Dumps/vendor_nothing_Spacewar" remote="github" revision="voyager" />
+  <project path="vendor/nothing/Spacewar/radio" name="StudioKeys/vendor_nothing_Spacewar_radio" remote="gitlab" revision="voyager" />
+</manifest>
