@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/bluejay" name="StudioKeys-Dumps/device_google_bluejay" remote="github"  revision="voyager" />
+  <project path="device/google/gs-common" name="StudioKeys-Dumps/device_google_gs-common" remote="github" revision="voyager" />
+  <project path="device/google/gs101" name="StudioKeys-Dumps/device_google_gs101" remote="github" revision="voyager" />
+  <project path="device/google/bluejay-kernels/5.10" name="device/google/bluejay-kernels/5.10" remote="aosp-pantah" clone-depth="1" />
+  <project path="vendor/google/bluejay" name="StudioKeys-Dumps/vendor_google_bluejay" remote="github" revision="voyager" />
+</manifest>
