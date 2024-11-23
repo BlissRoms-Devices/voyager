@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/taimen" name="nitin1438/android_device_google_taimen" remote="github"  revision="voyager" />
+  <project path="device/google/wahoo" name="nitin1438/android_device_google_wahoo" remote="github" revision="voyager" />
+  <project path="kernel/google/wahoo" name="nitin1438/android_kernel_google_wahoo" remote="github" revision="voyager" />
+  <project path="vendor/google/taimen" name="nitin1438/android_vendor_google_taimen" remote="github" revision="voyager" />
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-22.0" />
+  <project path="frameworks/opt/telephony" name="LineageOS/frameworks_opt_telephony" remote="github" revision="lineage-22.0" />
+</manifest>
