@@ -6,5 +6,5 @@
   <project path="vendor/google/taimen" name="nitin1438/android_vendor_google_taimen" remote="github" revision="voyager" />
   <project path="device/google/gs-common" name="StudioKeys-Dumps/device_google_gs-common" remote="github" revision="voyager" />
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="LineageOS/frameworks_opt_telephony" remote="github" revision="lineage-22.0" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-22.0" />
 </manifest>
