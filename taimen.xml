@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<remote  name="gitlab" fetch="https://gitlab.com/" />
+
 <manifest>
   <project path="device/google/taimen" name="nitin1438/android_device_google_taimen" remote="github"  revision="voyager" />
   <project path="device/google/wahoo" name="nitin1438/android_device_google_wahoo" remote="github" revision="voyager" />
   <project path="kernel/google/wahoo" name="nitin1438/android_kernel_google_wahoo" remote="github" revision="voyager" />
   <project path="vendor/google/taimen" name="nitin1438/android_vendor_google_taimen" remote="github" revision="voyager" />
   <project path="device/google/gs-common" name="StudioKeys-Dumps/device_google_gs-common" remote="github" revision="voyager" />
+  <project path="packages/apps/GoogleCamera" name="nitin1438/packages_apps_GoogleCamera" remote="gitlab" revision="14" >
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-22.0" />
 </manifest>
