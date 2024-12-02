@@ -14,6 +14,6 @@
 <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" revision="lineage-22.0" />
 
 <!-- MIUI Camera --> 
-<project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="BlissRoms-Devices" revision="15" />
+<project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="ihsan" revision="15" />
 
 </manifest>
