@@ -14,8 +14,7 @@
         revision="voyager" />
 
     <!-- Vendor Trees -->
-    <project name="ionutsandroidbuilds/proprietary_vendor_google_husky" path="vendor/google/husky"
-    remote="gitlab" revision="15.0" />
+    <project name="Shripal17/proprietary_vendor_google_husky" path="vendor/google/husky" remote="gitlab" revision="voyager" />
 
     <project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" revision="refs/tags/android-15.0.0_r4" remote="aosp" clone-depth="1" />
 
