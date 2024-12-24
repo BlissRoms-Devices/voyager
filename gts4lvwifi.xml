@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="BlissRoms-Devices/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" remote="github" revision="voyager" />
+  <project name="BlissRoms-Devices/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" remote="github" revision="voyager" />
+  <project name="srgrusso/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" remote="github" revision="bliss-v" />
+  <project name="srgrusso/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" remote="github" revision="bliss-v" />
+  <project name="BlissRoms-Devices/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" remote="github" revision="voyager"/>
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-22.0" />
+  <project name="BlissRoms-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="voyager" />
+</manifest>
