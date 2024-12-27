@@ -2,6 +2,7 @@
 <manifest>
     <remote name="gitlab" fetch="https://gitlab.com/" />
 
+    <remove-project name="platform_frameworks_base" />
 
     <!-- Device Trees -->
     <project name="shripal17/android_device_google_shusky" path="device/google/shusky"
@@ -13,20 +14,18 @@
     <project name="shripal17/android_device_google_zuma" path="device/google/zuma" remote="github"
         revision="voyager" />
 
+    <!-- FWB to fix PixelDisplayService crash -->
+    <project name="shripal17/bliss_frameworks_base" path="frameworks/base" remote="github"
+        revision="voyager" />
+
     <!-- Vendor Trees -->
-    <project name="Shripal17/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="gitlab" revision="voyager" />
-
+    <project name="Shripal17/proprietary_vendor_google_shiba" path="vendor/google/shiba"
+    remote="gitlab" revision="voyager" />
+    
+    <!-- Kernel -->
     <project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" revision="refs/tags/android-15.0.0_r4" remote="aosp" clone-depth="1" />
-
-    <!-- Bliss Pixel vendor framework  -->
-    <!-- <project name="BlissRoms/platform_vendor_pixel-framework" path="vendor/pixel-framework"
-    remote="github" revision="universe-pixel" /> -->
 
     <project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts"
         remote="github" revision="15.0" />
-
-
-    <project name="Shripal17/vendor_google_camera" path="vendor/google/camera"
-        remote="gitlab" revision="14.0" />
 
 </manifest>
