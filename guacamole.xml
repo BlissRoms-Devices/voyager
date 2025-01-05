@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15.0" />
 
 <!-- Device Trees -->
  <project path="device/oneplus/guacamole" name="BlissRoms-Devices/android_device_oneplus_guacamole" remote="github" revision="voyager" />
@@ -9,4 +14,7 @@
  <project path="kernel/oneplus/sm8150" name="BlissRoms-Devices/android_kernel_oneplus_sm8150" remote="github" revision="voyager" />
  <project path="hardware/oplus" name="BlissRoms-Devices/android_hardware_oplus" remote="github" revision="voyager-op7pro" />
  <project path="packages/apps/OPlusExtras" name="srgrusso/packages_apps_OPlusExtras" remote="github" revision="bliss-u" />
+
+  <!-- Clang 19.0.1 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" remote="crdroid-gitlab" />
 </manifest>
