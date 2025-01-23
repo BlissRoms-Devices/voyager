@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/nothing/Pong" name="drishal/device_nothing_Pong" remote="github"  revision="voyager" />
-  <project path="kernel/nothing/sm8475" name="drishal/kernel_nothing_sm8475" remote="github" revision="inline-2" />
-  <project path="vendor/nothing/Pong" name="drishal/vendor_nothing_pong/" remote="gitlab" revision="lineage-21" />
-  <remove-project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-22.0-caf-sm8450" />
+  <project path="kernel/nothing/sm8475" name="HELLBOY017/kernel_nothing_sm8475" remote="github" revision="inline-2" />
+  <project path="vendor/nothing/Pong" name="drishal/vendor_nothing_pong" remote="gitea" revision="lineage-22.1" />
+  <remove-project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-22.1-caf-sm8450" />
   <remove-project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="BlissRoms" revision="voyager-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/display" name="drishal/android_hardware_qcom_display" remote="github" revision="lineage-22.0-caf-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="drishal/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-22.0-caf-sm8450" />
-  <project path="hardware/dolby" name="FlamingoOS-Devices/hardware_dolby" remote="github" revision="A15" />
+  <remove-project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-22.1-caf-sm8450" />
+  <remove-project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-22.1-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/display" name="Nothing-phone-2-Development/android_hardware_qcom_display" remote="github" revision="lineage-22.1-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="Nothing-phone-2-Development/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-22.1-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="Nothing-phone-2-Development/android_hardware_qcom_audio-ar" remote="github" revision="lineage-22.1-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="Nothing-phone-2-Development/android_vendor_qcom_opensource_arpal-lx" remote="github" revision="lineage-22.1-caf-sm8450" />
+  <project path="hardware/nothing" name="Nothing-phone-2-Development/android_hardware_nothing" remote="github" revision="lineage-22.1" />
+  <project path="hardware/dolby" name="Pong-Development/hardware_dolby.git" remote="github" revision="A15" />
 </manifest>
