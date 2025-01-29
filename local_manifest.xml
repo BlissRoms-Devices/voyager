@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    
-<remote  name="romgharti"  fetch="https://gitlab.com" />
+<remote name="mojito"
+        fetch="https://github.com" />   
+<remote name="romgharti"  
+        fetch="https://gitlab.com" />
    
 <!-- Trees --> 
 <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="BlissRoms-Devices" revision="mojito-voyager" />
@@ -10,6 +13,11 @@
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="mojito" />
 <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="romgharti" revision="15" />
 <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="15" />
+
+<remove-project name="platform_frameworks_native" />
+<project path="frameworks/native" name="romgharti/platform_frameworks_native" remote="mojito" revision="voyager" />
+<remove-project name="platform_frameworks_av" />
+<project path="frameworks/av" name="romgharti/platform_frameworks_av" remote="mojito" revision="voyager" />
 
 </manifest>
 
