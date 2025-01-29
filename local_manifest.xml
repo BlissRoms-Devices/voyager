@@ -19,8 +19,6 @@
 <project path="frameworks/native" name="romgharti/platform_frameworks_native" remote="mojito" revision="voyager" />
 <remove-project name="platform_frameworks_av" />
 <project path="frameworks/av" name="romgharti/platform_frameworks_av" remote="mojito" revision="voyager" />
-<remove-project name="platform_frameworks_native" />
-<project path="frameworks/native" name="romgharti/platform_frameworks_native" remote="mojito" revision="voyager" />
 <remove-project name="platform_system_sepolicy" />
 <project path="system/sepolicy" name="romgharti/platform_system_sepolicy" remote="mojito" revision="voyager" />
 </manifest>
