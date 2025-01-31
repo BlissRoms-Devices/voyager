@@ -11,5 +11,6 @@
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="agm" remote="lostark13" revision="lineage-22.0-caf-sm8450" />
   <remove-project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-22.1-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="arpal-lx" remote="lostark13" revision="lineage-22.1-caf-sm8450" />
+  <project name="android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="lineage" revision="222d05de80e1aad205c0246d35c2df5af6a39261" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project path="vendor/xiaomi/sky" name="BlissRoms-Devices/android_vendor_xiaomi_sky" remote="github" revision="voyager" />
 </manifest>
