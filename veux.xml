@@ -8,6 +8,7 @@
   <project path="kernel/xiaomi/sm6375" name="kernel_xiaomi_sm6375" remote="frost" revision="main" />
   <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="frost" revision="15" />
   <project path="vendor/xiaomi/miuicamera-veux" name="vendor_xiaomi_miuicamera-veux" remote="frost" revision="main" />
+  <project path="vendor/oneplus/dolby" name="vendor_oneplus_dolby" remote="frost" revision="main" />
 
   <remove-project path="hardware/qcom-caf/sm8350/audio" />
   <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" remote="frost" revision="15" />
