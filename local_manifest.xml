@@ -15,14 +15,6 @@
 <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="15" />
 <project path="vendor/xiaomi/mojito-leicacamera" name="dpenra/android_vendor_xiaomi_mojito-leicacamera" remote="romgharti" revision="main" />
 
-<remove-project name="platform_frameworks_base" />
-<project path="frameworks/base" name="romgharti/platform_frameworks_base" remote="mojito" revision="test" />  
-<remove-project name="platform_frameworks_native" />
-<project path="frameworks/native" name="romgharti/platform_frameworks_native" remote="mojito" revision="voyager" />
-<remove-project name="platform_frameworks_av" />
-<project path="frameworks/av" name="romgharti/platform_frameworks_av" remote="mojito" revision="voyager" />
-<remove-project name="platform_system_sepolicy" />
-<project path="system/sepolicy" name="romgharti/platform_system_sepolicy" remote="mojito" revision="voyager" />
 </manifest>
 
 
