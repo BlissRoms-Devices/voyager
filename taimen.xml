@@ -11,4 +11,6 @@
   <project path="packages/apps/GoogleCamera" name="nitin1438/packages_apps_GoogleCamera" remote="gitlab" revision="14" />
   <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-22.1" />
+  <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" remote="github" revision="lineage-22.1" />
 </manifest>
