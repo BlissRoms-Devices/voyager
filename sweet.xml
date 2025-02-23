@@ -10,6 +10,9 @@
 
     <project path="vendor/xiaomi/sm6150-common" name="xiaomi-sm6150/proprietary_vendor_xiaomi_sm6150-common" remote="github" revision="lineage-22.1" />
     <project path="vendor/xiaomi/sweet" name="xiaomi-sm6150/proprietary_vendor_xiaomi_sweet" remote="github" revision="lineage-22.1" />
+    
+    <project path="device/xiaomi/miuicamera-sweet" name="xiaomi-sm6150/android_device_xiaomi_miuicamera-sweet" remote="github" revision="lineage-22.1" />
+    <project path="vendor/xiaomi/miuicamera-sweet" name="xiaomi-sm6150/proprietary_vendor_xiaomi_miuicamera-sweet" remote="github" revision="lineage-22.1" />
 
     <project path="kernel/xiaomi/sm6150" name="xiaomi-sm6150/android_kernel_xiaomi_sm6150" remote="github" revision="lineage-22.1" />
     <!--      <project path="vendor/JamesDSP" name="vendor_JamesDSP" remote="GOS-Devices"
