@@ -15,4 +15,5 @@
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="Pong-Development/vendor_qcom_opensource_arpal-lx" remote="github" revision="15" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="Pong-Development/vendor_qcom_opensource_agm" remote="github" revision="15" />
   <project path="hardware/dolby" name="Pong-Development/hardware_dolby" remote="github" revision="15" />
+  <project path="packages/apps/ParanoidGlyphPhone2" name="Pong-Development/packages_apps_ParanoidGlyph.git" remote="github" revision="15" />
 </manifest>
