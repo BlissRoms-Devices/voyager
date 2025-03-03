@@ -8,5 +8,6 @@
   <project path="kernel/asus/I001D" name="StudioKeys-Dumps/kernel_asus_I001D" remote="githubssh" revision="voyager" />
   <project path="vendor/asus/I001D" name="StudioKeys-Dumps/vendor_asus_I001D" remote="githubssh" revision="voyager" />
   <project path="vendor/asus/sm8150-common" name="StudioKeys-Dumps/vendor_asus_sm8150-common" remote="githubssh" revision="voyager" />
+  <project path="vendor/oneplus/dolby" name="StudioKeys-Dumps/vendor_oneplus_dolby" remote="githubssh" revision="voyager" />
 
 </manifest>
