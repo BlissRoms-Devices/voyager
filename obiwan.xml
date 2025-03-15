@@ -5,9 +5,10 @@
 
   <remove-project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom" remote="BlissRoms" />
 
-  <project path="device/asus/obiwan" name="StudioKeys-Dumps/device_asus_obiwan" remote="githubssh" revision="voyager" />
+  <project path="device/asus/obiwan" name="StudioKeys-Dumps/device_asus_obiwan" remote="githubssh" revision="ad5868e3538526bfb46da27bfd2fd86bf8528461" upstream="voyager" dest-branch="voyager" />
   <project path="kernel/asus/sm8250" name="StudioKeys-Dumps/kernel_asus_sm8250" remote="githubssh" revision="voyager" />
-  <project path="vendor/asus/obiwan" name="StudioKeys-Dumps/vendor_asus_obiwan" remote="githubssh" revision="voyager" />
+  <project path="vendor/asus/obiwan" name="StudioKeys-Dumps/vendor_asus_obiwan" remote="githubssh" revision="8e61db14962afd1b4a66672a9b43e267dfed8427" upstream="voyager" dest-branch="voyager" />
+  <project path="vendor/oneplus/dolby" name="StudioKeys-Dumps/vendor_oneplus_dolby" remote="githubssh" revision="voyager" />
   
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom" remote="BlissRoms" >
     <!-- add guard for AOSP hardware/qcom dir -->
