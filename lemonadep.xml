@@ -7,5 +7,5 @@
   <project path="kernel/oneplus/sm8350" name="BlissRoms-Devices/android_kernel_oneplus_sm8350" remote="github" revision="voyager" />
   <project path="hardware/oplus" name="BlissRoms-Devices/android_hardware_oplus" remote="github" revision="voyager-op9pro" />
   <project path="packages/apps/OPlusExtras" name="srgrusso/packages_apps_OPlusExtras" remote="github" revision="bliss-u" />
-  <project path="vendor/oneplus/camera" name="srgrusso/android_vendor_oneplus_camera.git" remote="gitlab" revision="bliss-u" />
+  <project path="vendor/oplus/camera" name="srgrusso/vendor_oplus_camera" remote="gitlab" revision="bliss-v-op9pro" />
 </manifest>
