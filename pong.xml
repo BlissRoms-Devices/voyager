@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS" />
   <project path="device/nothing/Pong" name="drishal/device_nothing_Pong" remote="github"  revision="voyager" />
   <project path="kernel/nothing/sm8475" name="Pong-Development/kernel_nothing_sm8475" remote="github" revision="15" />
   <project path="vendor/nothing/Pong" name="Pong-Development/vendor_nothing_Pong" remote="github" revision="15" />
