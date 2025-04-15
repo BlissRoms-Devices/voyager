@@ -13,9 +13,15 @@
 <project path="vendor/xiaomi/peridot-miuicamera" name="vendor_xiaomi_peridot-miuicamera" remote="swapnil-gitlab" revision="main" />
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sampatti" revision="lineage-22.0" />
 
-<!-- frameworks for fp fix -->
-<remove-project name="platform_frameworks_base" />
-<project path="frameworks/base" name="platform_frameworks_base" remote="s" revision="voyager" />
+<!-- remove los hals -->
+<remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
+<remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_dataipa" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
 
 <!-- hals -->
 <project path="hardware/qcom-caf/sm8650/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,lanai-audio" remote="sampatti" revision="lineage-22.0-caf-sm8650" />
@@ -26,8 +32,6 @@
 <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" groups="qcom" remote="sampatti" revision="lineage-22.0-caf-sm8650" />
 <project path="hardware/qcom-caf/sm8650/media" name="android_hardware_qcom_media" groups="qcom,lanai-vendor" remote="sampatti" revision="lineage-22.0-caf-sm8650" />
 <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" remote="sampatti" revision="lineage-22.0-caf-sm8650" />
-
-<remove-project name="android_vendor_qcom_opensource_vibrator" />
 <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" revision="lineage-22.0" remote="sampatti" />
 
 </manifest>
