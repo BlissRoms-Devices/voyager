@@ -14,6 +14,8 @@
 <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="romgharti" revision="15" />
 <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="15" />
 
+<remove-project name="platform_build_soong" />
+<project path="build/soong" name="romgharti/platform_build_soong" remote="mojito" revision="voyager-qpr2" />   
 </manifest>
 
 
