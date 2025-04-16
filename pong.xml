@@ -7,7 +7,6 @@
   <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8450"  upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
   <remove-project name="LineageOS/android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8450/audio/primary-hal" upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal"  upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices"  upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom"/>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
   <project path="hardware/qcom-caf/sm8450/display" name="Pong-Development/hardware_qcom-caf_sm8450_display" remote="github" revision="15" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="Pong-Development/device_qcom_sepolicy_vndr" remote="github" revision="15" />
