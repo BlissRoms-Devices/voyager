@@ -2,13 +2,13 @@
 <manifest>
   
 <remote name="gitlab" fetch="https://gitlab.com/" />
-
   <project path="device/google/taimen" name="LineageOS/android_device_google_taimen" remote="github"  revision="lineage-22.2" />
   <project path="device/google/wahoo" name="LineageOS/android_device_google_wahoo" remote="github" revision="lineage-22.2" />
   <project path="kernel/google/wahoo" name="LineageOS/android_device_google_wahoo" remote="github" revision="lineage-22.2" />
   <project path="vendor/google/taimen" name="TheMuppets/proprietary_vendor_google_taimen" remote="github" revision="lineage-22.2" />
   <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-22.2" />
-  
+
+  <remove-project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="github" />
   <!-- Freeze qcom-caf changes for 18.5 -->
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="github" revision="06ab24e490fb1ef79353a7c032278ff3a4b6e072" upstream="lineage-22.2" dest-branch="lineage-22.2" />
 </manifest>
