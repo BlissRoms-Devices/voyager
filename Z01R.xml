@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   
+<remote name="los" fetch="https://github.com/LineageOS" />
+<remote name="vendor" fetch="https://github.com/TheMuppets" />
+   
+<!-- Device Trees --> 
+<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="los" revision="lineage-22.2" />
+
+<!-- Kernel Trees --> 
+<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="los" revision="lineage-22.2" />
+
+<!-- Vendor Trees --> 
+<project path="vendor/asus/Z01R" name="proprietary_vendor_asus_Z01R" remote="vendor" revision="lineage-22.2" />
+
+</manifest>
