@@ -6,5 +6,4 @@
   <project path="vendor/google/taimen" name="TheMuppets/proprietary_vendor_google_taimen" remote="github" revision="lineage-22.2" />
   <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-22.2" />
   <project path="packages/apps/ElmyraService" name="LineageOS/android_packages_apps_ElmyraService" remote="github" revision="lineage-22.2" />
-  </project>
 </manifest>
