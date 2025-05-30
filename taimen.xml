@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/google/taimen" name="LineageOS/android_device_google_taimen" remote="github"  revision="lineage-22.2" />
+  <project path="device/google/taimen" name="BlissRoms-Devices/android_device_google_taimen" remote="github"  revision="voyager" />
   <project path="device/google/wahoo" name="LineageOS/android_device_google_wahoo" remote="github" revision="lineage-22.2" />
   <project path="kernel/google/wahoo" name="LineageOS/android_device_google_wahoo" remote="github" revision="lineage-22.2" />
   <project path="vendor/google/taimen" name="TheMuppets/proprietary_vendor_google_taimen" remote="github" revision="lineage-22.2" />
