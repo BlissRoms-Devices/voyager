@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/nothing/Pong" name="drishal/device_nothing_Pong" remote="github"  revision="voyager" />
-  <project path="kernel/nothing/sm8475" name="Pong-Development/kernel_nothing_sm8475" remote="github" revision="15" />
-  <project path="vendor/nothing/Pong" name="Pong-Development/vendor_nothing_Pong" remote="github" revision="15" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8450/display" upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom"/>
-  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8450"  upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <remove-project name="LineageOS/android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8450/audio/primary-hal" upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal"  upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" upstream="lineage-22.2-caf-sm8450" dest-branch="lineage-22.2-caf-sm8450" groups="qcom,waipio-vendor"/>
+  <remove-project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-22.2-caf-sm8450" />
+  <remove-project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
+  <remove-project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-22.2-caf-sm8450" />
+  <remove-project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-22.2-caf-sm8450" />
+  <remove-project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-22.2-caf-sm8450" />
+  <remove-project path="hardware/qcom-caf/sm8450/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-22.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/display" name="Pong-Development/hardware_qcom-caf_sm8450_display" remote="github" revision="15" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="Pong-Development/device_qcom_sepolicy_vndr" remote="github" revision="15" />
-  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="Pong-Development/hardware_qcom_audio-ar" remote="github" revision="15" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" name="Pong-Development/vendor_qcom_opensource_arpal-lx" remote="github" revision="15" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="Pong-Development/vendor_qcom_opensource_agm" remote="github" revision="15" />
-  <project path="hardware/dolby" name="Pong-Development/hardware_dolby" remote="github" revision="sony" />
-  <project path="packages/apps/ParanoidGlyphPhone2" name="Pong-Development/packages_apps_ParanoidGlyph.git" remote="github" revision="15" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="Pong-Development/device_qcom_sepolicy_vndr.git" remote="github" revision="15" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="Pong-Development/hardware_qcom_audio-ar" remote="github" revision="pre" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="Pong-Development/vendor_qcom_opensource_arpal-lx" remote="github" revision="pre" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" name="Pong-Development/vendor_qcom_opensource_agm" remote="github" revision="pre" />
+  <project path="packages/apps/ParanoidGlyphPhone2" name="Pong-Development/packages_apps_ParanoidGlyph" remote="github" revision="15" />
   <project path="packages/apps/GlyphAdapter" name="Pong-Development/packages_apps_GlyphAdapter" remote="github" revision="15" />
+  <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="Pong-Development/vendor_qcom_opensource_audioreach-graphservices.git" groups="qcom,waipio-vendor" remote="github" revision="pre" />
+  <project path="hardware/dolby" name="Pong-Development/hardware_dolby" remote="github" revision="15" />
 </manifest>
