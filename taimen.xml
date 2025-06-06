@@ -2,7 +2,7 @@
 <manifest>
   <project path="device/google/taimen" name="BlissRoms-Devices/android_device_google_taimen" remote="github"  revision="voyager" />
   <project path="device/google/wahoo" name="nitin1438/android_device_google_wahoo" remote="github" revision="voyager" />
-  <project path="kernel/google/wahoo" name="nitin1438/android_device_google_wahoo" remote="github" revision="voyager" />
+  <project path="kernel/google/wahoo" name="nitin1438/android_kernel_google_wahoo" remote="github" revision="voyager" />
   <project path="vendor/google/taimen" name="nitin1438/proprietary_vendor_google_taimen" remote="github" revision="voyager" />
   <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-22.2" />
   <project path="packages/apps/ElmyraService" name="LineageOS/android_packages_apps_ElmyraService" remote="github" revision="lineage-22.2" />
