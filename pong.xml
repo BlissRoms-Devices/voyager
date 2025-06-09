@@ -17,5 +17,5 @@
   <project path="packages/apps/ParanoidGlyphPhone2" name="Pong-Development/packages_apps_ParanoidGlyph" remote="github" revision="15" />
   <project path="packages/apps/GlyphAdapter" name="Pong-Development/packages_apps_GlyphAdapter" remote="github" revision="15" />
   <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="Pong-Development/vendor_qcom_opensource_audioreach-graphservices.git" groups="qcom,waipio-vendor" remote="github" revision="pre" />
-  <project path="hardware/dolby" name="Pong-Development/hardware_dolby" remote="github" revision="15" />
+  <project path="hardware/dolby" name="Pong-Development/hardware_dolby" remote="github" revision="sony" />
 </manifest>
