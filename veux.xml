@@ -9,6 +9,7 @@
   <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="frost" revision="15" />
   <project path="vendor/xiaomi/miuicamera-veux" name="vendor_xiaomi_miuicamera-veux" remote="frost" revision="main" />
   <project path="vendor/oneplus/dolby" name="vendor_oneplus_dolby" remote="frost" revision="main" />
+  <project path="packages/apps/DSPVolumeSynchronizer" name="packages_apps_DSPVolumeSynchronizer" remote="frost" revision="main" />
 
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" revision="lineage-22.2"  />
 
